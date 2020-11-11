@@ -47,10 +47,14 @@
 
 /* font-color */
 
-.primart-color {
+.color--primary {
     color: #31326f;
 }
 
-.secondary-color {
+.color--secondary {
     color: #ffffff;
+}
+
+.color--thirdly {
+    color: #e8e8e8
 }

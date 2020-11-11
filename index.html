@@ -17,7 +17,24 @@
 </head>
 
 <body class="browser-window display-flex justify-center align-center">
-<div class="app-container"></div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <div class="app-container display-flex flex-row">
+        <div class="left-app-container display-flex align-center">
+            <div class="left-app-container__frame"></div>
+        </div>
+        <div class="right-app-container">
+            <!-- navigation-bar -->
+            <nav class="right-app-container__nav-bar display-flex justify-end align-center">
+                <button class="right-app-container__nav-bar--info-btn">
+                    <i class="fas fa-chevron-circle-down color--thirdly"></i>
+                </button>
+            </nav>
+            <!-- main-section -->
+            <main class="right-app-container__frame">
+                <div class="right-app-container__main"></div>
+            </main>
+        </div>
+    </div>
 </body>
 
 </html>
