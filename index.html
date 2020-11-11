@@ -22,12 +22,27 @@
         <div class="left-app-container display-flex align-center">
             <div class="left-app-container__frame"></div>
         </div>
-        <div class="right-app-container">
+        <!-- righr side app -->
+        <div class="right-side-container">
             <!-- navigation-bar -->
-            <nav class="right-app-container__nav-bar display-flex justify-end align-center">
-                <button class="right-app-container__nav-bar--info-btn">
-                    <i class="fas fa-chevron-circle-down color--thirdly"></i>
-                </button>
+            <nav class="right-side-container__nav-bar display-flex align-center justify-between">
+                <div class="right-side-container__nav-bar--search-btn">
+                    <i class="fas fa-search color--thirdly"></i>
+                    <input class="right-side-container__search-input font-size--s" type="text"
+                        placeholder="Search for...">
+                </div>
+                <!-- <div>
+                    <input class="right-side-container__search-input font-size--s" type="text"
+                        placeholder="&#xf002; Search for...">
+                    <button class="right-side-container__nav-bar--search-btn">
+                        <i class="fas fa-search color--thirdly"></i>
+                    </button>
+                </div> -->
+                <div>
+                    <button class="right-side-container__nav-bar--info-btn">
+                        <i class="fas fa-ellipsis-h color--thirdly"></i>
+                    </button>
+                </div>
             </nav>
             <!-- main-section -->
             <main class="right-app-container__frame">
