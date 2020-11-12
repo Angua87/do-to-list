@@ -49,12 +49,10 @@ input::placeholder {
     color: #d2d2d2;
 }
 
-.right-side-container__nav-bar--info-btn {
+/* .right-side-container__nav-bar--info-btn {
     font-size: 20px;
     font-size: 20px;
-}
-
-
+} */
 
 .right-app-container__frame {
     height: 585px;
@@ -77,4 +75,80 @@ input::placeholder {
     margin: 0px 5px 0px 10px;
     border-radius: 10px 10px 10px 10px;
     background-color: #ffffff;
+}
+
+.user-icon {
+    font-size: 100px;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+.user-frame {
+    height: 210px;
+}
+
+.button-frame {
+    height: 420px;
+}
+
+.to-do-btn,
+.in-progress-btn,
+.done-btn {
+    width: 245px;
+    height: 35px;
+    border: 2px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #d2d2d2;
+    margin-bottom: 8px;
+}
+
+.done-btn {
+    margin-bottom: 24px;
+}
+
+.type-buttons,
+.stage-buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.work-btn,
+.school-btn,
+.other-btn,
+.home-btn {
+    width: 118px;
+    height: 35px;
+    border: 2px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #d2d2d2;
+    margin-bottom: 8px;
+}
+
+.task-btn {
+    height: 145px;
+}
+
+.new-task-btn {
+    width: 175px;
+    height: 50px;
+    border: 2px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #d2d2d2;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.btn-headings {
+    margin-bottom: 8px;
+    color: #d2d2d2;
+}
+
+.plus-icon{
+    font-size: 30px;
+    font-size: 30px;
 }

@@ -20,29 +20,77 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <div class="app-container display-flex flex-row">
         <div class="left-app-container display-flex align-center">
-            <div class="left-app-container__frame"></div>
+            <div class="left-app-container__frame">
+                <div class="user-frame display-flex justify-center align-center flex-column">
+                    <div class="user-icon"><i class="far fa-user-circle color--thirdly"></i></div>
+                    <div>
+                        <p class="color--thirdly font-size--s">User Account</p>
+                    </div>
+                </div>
+                <div class="button-frame">
+                    <div class="stage-buttons">
+                        <h1 class="btn-headings font-size--s">TASKS</h1>
+                        <div class="display-flex justify-center align-center flex-column font-size--s">
+                            <div><button class="to-do-btn">
+                                    To-do
+                                </button>
+                            </div>
+                            <div><button class="in-progress-btn">
+                                    In Progress
+                                </button>
+                            </div>
+                            <div><button class="done-btn">
+                                    Done
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="type-buttons">
+                        <h1 class="btn-headings font-size--s">CATEGORIES</h1>
+                        <div class="display-flex justify-between align-center flex-row flex-wrap font-size--s">
+                            <div><button class="work-btn">
+                                    Work
+                                </button>
+                            </div>
+                            <div><button class="school-btn">
+                                    School
+                                </button>
+                            </div>
+                            <div><button class="other-btn">
+                                    Other
+                                </button>
+                            </div>
+                            <div><button class="home-btn">
+                                    Home
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="task-btn display-flex justify-end align-end font-size--s">
+                        <div class="new-task-btn display-flex justify-between flex-row align-center">
+                            <p>Add New Task</p>
+                            <i class="fas fa-plus-circle plus-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- righr side app -->
         <div class="right-side-container">
             <!-- navigation-bar -->
             <nav class="right-side-container__nav-bar display-flex align-center justify-between">
+                <h1 class="color--thirdly font-size--m">Dashboard</h1>
                 <div class="right-side-container__nav-bar--search-btn">
                     <i class="fas fa-search color--thirdly"></i>
                     <input class="right-side-container__search-input font-size--s" type="text"
                         placeholder="Search for...">
                 </div>
                 <!-- <div>
-                    <input class="right-side-container__search-input font-size--s" type="text"
-                        placeholder="&#xf002; Search for...">
-                    <button class="right-side-container__nav-bar--search-btn">
-                        <i class="fas fa-search color--thirdly"></i>
-                    </button>
-                </div> -->
-                <div>
                     <button class="right-side-container__nav-bar--info-btn">
                         <i class="fas fa-ellipsis-h color--thirdly"></i>
                     </button>
-                </div>
+                </div> -->
             </nav>
             <!-- main-section -->
             <main class="right-app-container__frame">
