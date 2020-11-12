@@ -148,7 +148,54 @@ input::placeholder {
     color: #d2d2d2;
 }
 
-.plus-icon{
+.plus-icon {
     font-size: 30px;
     font-size: 30px;
+}
+
+.notes-wrapper {
+    height: 570px;
+    width: 420px;
+}
+
+
+
+.calendar-wrapper {
+    height: 585px;
+    width: 260px;
+}
+
+
+.calendar-app {
+    width: 244px;
+    height: 244px;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.daily-tasks {
+    width: 260px;
+    height: 325px;
+    padding-bottom: 4px;
+}
+
+.random-task{
+    width: 244px;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 4px 8px 4px 8px;
+}
+
+.random-note{
+    width: 202px;
+    height: 280px;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top:8px;
+    margin-left: 8px;
 }
