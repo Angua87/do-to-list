@@ -16,20 +16,24 @@
     <title>To-Do List App</title>
 </head>
 
-<body class="browser-window display-flex justify-center align-center">
+<body class="browser-window-size display-flex justify-center align-center">
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <div class="app-container display-flex flex-row">
-        <div class="left-app-container display-flex align-center">
-            <div class="left-app-container__frame">
-                <div class="user-frame display-flex justify-center align-center flex-column">
-                    <div class="user-icon"><i class="far fa-user-circle color--thirdly"></i></div>
+        <div class="left-side-wrapper display-flex align-center">
+            <div class="left-side-wrapper__inner-container">
+                <div class="UA-container display-flex justify-center align-center flex-column">
+                    <div class="UA-container__icon">
+                        <i class="far fa-user-circle color--thirdly"></i>
+                    </div>
                     <div>
                         <p class="color--thirdly font-size--s">User Account</p>
                     </div>
                 </div>
-                <div class="button-frame">
-                    <div class="stage-buttons">
-                        <h1 class="btn-headings font-size--s">TASKS</h1>
+                <div class="buttons-wrapper">
+                    <div class="buttons-wrapper__btn-container">
+                        <h1 class="btn-headings font-size--s">Tasks</h1>
                         <div class="display-flex justify-center align-center flex-column font-size--s">
                             <div><button class="to-do-btn">
                                     To-do
@@ -46,8 +50,8 @@
                         </div>
 
                     </div>
-                    <div class="type-buttons">
-                        <h1 class="btn-headings font-size--s">CATEGORIES</h1>
+                    <div class="buttons-wrapper__btn-container">
+                        <h1 class="btn-headings font-size--s">Categories</h1>
                         <div class="display-flex justify-between align-center flex-row flex-wrap font-size--s">
                             <div><button class="work-btn">
                                     Work
@@ -67,10 +71,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="task-btn display-flex justify-end align-end font-size--s">
-                        <div class="new-task-btn display-flex justify-between flex-row align-center">
+                    <div class="add-task-container display-flex justify-end align-end font-size--s">
+                        <div class="add-task-btn display-flex justify-between flex-row align-center">
                             <p>Add New Task</p>
-                            <i class="fas fa-plus-circle plus-icon"></i>
+                            <i class="add-task-btn__icon fas fa-plus-circle"></i>
                         </div>
                     </div>
                 </div>
