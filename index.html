@@ -16,14 +16,15 @@
     <title>To-Do List App</title>
 </head>
 
-<body class="browser-window-size display-flex justify-center align-center">
-    <!-- Font Awesome -->
+<body class="browser-window-size display--flex justify--center align--center">
+    <!-- Font Awesome Script-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <div class="app-container display-flex flex-row">
-        <div class="left-side-wrapper display-flex align-center">
+    <div class="app-container display--flex flex--row">
+        <!-- LEFT-SIDE -->
+        <div class="left-side-wrapper display--flex align--center">
             <div class="left-side-wrapper__inner-container">
-                <div class="UA-container display-flex justify-center align-center flex-column">
+                <div class="UA-container display--flex justify--center align--center flex--column">
                     <div class="UA-container__icon">
                         <i class="far fa-user-circle color--thirdly"></i>
                     </div>
@@ -33,8 +34,8 @@
                 </div>
                 <div class="buttons-wrapper">
                     <div class="buttons-wrapper__btn-container">
-                        <h1 class="btn-headings font-size--s">Tasks</h1>
-                        <div class="display-flex justify-center align-center flex-column font-size--s">
+                        <h3 class="btn-headings font-size--s">Tasks</h3>
+                        <div class="display--flex justify--center align--center flex--column font-size--s">
                             <div><button class="to-do-btn">
                                     To-do
                                 </button>
@@ -51,8 +52,8 @@
 
                     </div>
                     <div class="buttons-wrapper__btn-container">
-                        <h1 class="btn-headings font-size--s">Categories</h1>
-                        <div class="display-flex justify-between align-center flex-row flex-wrap font-size--s">
+                        <h3 class="btn-headings font-size--s">Categories</h3>
+                        <div class="display--flex justify--between align--center flex--row flex--wrap font-size--s">
                             <div><button class="work-btn">
                                     Work
                                 </button>
@@ -71,8 +72,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="add-task-container display-flex justify-end align-end font-size--s">
-                        <div class="add-task-btn display-flex justify-between flex-row align-center">
+                    <div class="add-task-container display--flex justify--end align--end font-size--s">
+                        <div class="add-task-btn display--flex justify--between flex--row align--center">
                             <p>Add New Task</p>
                             <i class="add-task-btn__icon fas fa-plus-circle"></i>
                         </div>
@@ -80,40 +81,39 @@
                 </div>
             </div>
         </div>
-        <!-- righr side app -->
-        <div class="right-side-container">
-            <!-- navigation-bar -->
-            <nav class="right-side-container__nav-bar display-flex align-center justify-between">
-                <h1 class="color--thirdly font-size--m">Dashboard</h1>
-                <div class="right-side-container__nav-bar--search-btn">
+        <!-- RIGHT-SIDE -->
+        <div class="right-side-wrapper">
+            <!-- header-bar -->
+            <header class="header-bar-container display--flex align--center justify--between">
+                <h1 class="header-bar-container__main heading color--thirdly font-size--m">Dashboard</h1>
+                <div class="search-btn">
                     <i class="fas fa-search color--thirdly"></i>
-                    <input class="right-side-container__search-input font-size--s" type="text"
-                        placeholder="Search for...">
+                    <input class="search-btn__input font-size--s" type="text" placeholder="Search for...">
                 </div>
-                <!-- <div>
-                    <button class="right-side-container__nav-bar--info-btn">
-                        <i class="fas fa-ellipsis-h color--thirdly"></i>
-                    </button>
-                </div> -->
-            </nav>
+            </header>
             <!-- main-section -->
-            <main class="right-app-container__frame">
-                <div class="right-app-container__main display-flex flex-row">
-                    <div class="notes-wrapper display-flex flex-row flex-wrap">
+            <main class="main-wrapper">
+                <div class="main-wrapper_inner-container display--flex flex--row">
+                    <section class="notes-wrapper display--flex flex--row flex--wrap">
                         <div class="random-note"></div>
                         <div class="random-note"></div>
                         <div class="random-note"></div>
                         <div class="random-note"></div>
-                    </div>
+                    </section>
                     <div class="calendar-wrapper">
                         <div class="calendar-app">
                             <div class="calendar"></div>
                         </div>
-                        <div class="daily-tasks display-flex flex-column align-end justify-end">
-                            <div class="random-task"></div>
-                            <div class="random-task"></div>
-                            <div class="random-task"></div>
-                            <div class="random-task"></div>
+                        <!-- <div class="display--flex justify--start font-size--s">
+                            <h3 class="btn-headings">Daily Tasks</h3>
+                        </div> -->
+                        <div class="daily-tasks display--flex flex--column align--end justify--end">
+                            <section>
+                                <div class="random-task"></div>
+                                <div class="random-task"></div>
+                                <div class="random-task"></div>
+                                <div class="random-task"></div>
+                            </section>
                         </div>
                     </div>
                 </div>

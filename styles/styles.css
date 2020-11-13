@@ -18,51 +18,7 @@
     box-shadow: 0px 5px 10px 0px #d9adad;
 }
 
-.right-side-container {
-    height: 650px;
-    width: 695px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #f4f4f2;
-}
-
-.right-side-container__nav-bar {
-    height: 35px;
-    width: 680px;
-    margin: 10px 10px 10px 5px;
-    border-radius: 0px 10px 0px 0px;
-    background-color: #f4f4f2;
-}
-
-.right-side-container__nav-bar--search-btn {
-    padding: 0px 10px;
-    border: 1px solid #d2d2d2;
-    border-radius: 10px;
-}
-
-.right-side-container__search-input {
-    width: 300px;
-    height: 35px;
-    border: none;
-    color: #d2d2d2;
-    background-color: #f4f4f2;
-}
-
-input::placeholder {
-    color: #d2d2d2;
-}
-
-/* .right-side-container__nav-bar--info-btn {
-    font-size: 20px;
-    font-size: 20px;
-} */
-
-.right-app-container__frame {
-    height: 585px;
-    width: 680px;
-    margin: 0px 10px 10px 5px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #ffffff;
-}
+/* LEFT-SIDE */
 
 /* checked */
 .left-side-wrapper {
@@ -148,6 +104,7 @@ input::placeholder {
 .done-btn {
     margin-bottom: 24px;
 }
+
 /* checked */
 .add-task-container {
     height: 145px;
@@ -169,16 +126,63 @@ input::placeholder {
     font-size: 30px;
 }
 
+/* RIGHT-SIDE */
+
+/* checked */
+.right-side-wrapper {
+    height: 650px;
+    width: 695px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f4f4f2;
+}
+/* checked */
+.header-bar-container {
+    height: 35px;
+    width: 680px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #f4f4f2;
+}
+/* checked */
+.search-btn {
+    padding: 0px 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+}
+/* checked */
+.search-btn__input {
+    width: 300px;
+    height: 35px;
+    border: none;
+    color: #d2d2d2;
+    background-color: #f4f4f2;
+}
+/* checked */
+input::placeholder {
+    color: #d2d2d2;
+}
+
+/* checked */
+.main-wrapper {
+    height: 585px;
+    width: 680px;
+    margin: 0px 10px 10px 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* checked */
 .notes-wrapper {
     height: 570px;
     width: 420px;
 }
-
+/* checked */
 .calendar-wrapper {
     height: 585px;
     width: 260px;
 }
 
+/* checked */
 .calendar-app {
     width: 244px;
     height: 244px;
@@ -188,12 +192,14 @@ input::placeholder {
     margin: 8px;
 }
 
+/* checked */
 .daily-tasks {
     width: 260px;
     height: 325px;
     padding-bottom: 4px;
 }
 
+/* checked */
 .random-task {
     width: 244px;
     height: 60px;
@@ -203,6 +209,7 @@ input::placeholder {
     margin: 4px 8px 4px 8px;
 }
 
+/* checked */
 .random-note {
     width: 202px;
     height: 280px;
