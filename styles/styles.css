@@ -173,8 +173,10 @@ input::placeholder {
 
 /* checked */
 .notes-wrapper {
-    height: 570px;
+    height: inherit;
     width: 420px;
+    padding-right: 8px;
+    padding-bottom: 8px;
 }
 /* checked */
 .calendar-wrapper {
@@ -193,10 +195,11 @@ input::placeholder {
 }
 
 /* checked */
-.daily-tasks {
+.daily-tasks-wrapper {
     width: 260px;
     height: 325px;
-    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 /* checked */
@@ -206,12 +209,12 @@ input::placeholder {
     border: 1px solid #d2d2d2;
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 4px 8px 4px 8px;
+    margin-bottom: 8px;
 }
 
 /* checked */
 .random-note {
-    width: 202px;
+    width: 195px;
     height: 280px;
     border: 1px solid #d2d2d2;
     background-color: #ffffff;
