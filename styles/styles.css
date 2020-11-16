@@ -64,8 +64,7 @@
 .btn-headings {
     margin-bottom: 8px;
     color: #d2d2d2;
-    text-transform: capitalize;
-    /* capitalize nie działa...*/
+    text-transform: uppercase;
 }
 
 /* checked */
@@ -78,18 +77,40 @@
 .home-btn,
 .add-task-btn {
     height: 35px;
-    border: 2px solid #d2d2d2;
+    border: none;
+    box-shadow: 1.5px 3px 5px 1.5px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 45px;
     color: #d2d2d2;
     margin-bottom: 8px;
+    transition: all 0.5s ease 0.0s;
+}
+
+.add-task-btn__description {
+    visibility: hidden;
+}
+
+.add-task-btn__description:hover {
+    color: #ffffff;
+    visibility: visible;
+}
+
+.to-do-btn:hover,
+.in-progress-btn:hover,
+.done-btn:hover,
+.add-task-btn:hover {
+    width: 245px;
+    color: #ffffff;
+    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
+    background-color: #31326F;
+    transform: rotateZ(5px);
 }
 
 /* checked */
 .to-do-btn,
 .in-progress-btn,
 .done-btn {
-    width: 245px;
+    width: 200px;
 }
 
 /* checked */
@@ -112,7 +133,7 @@
 
 /* checked */
 .add-task-btn {
-    width: 175px;
+    width: 50px;
     height: 50px;
     margin-right: 8px;
     margin-bottom: 8px;
@@ -135,6 +156,7 @@
     border-radius: 0px 10px 10px 0px;
     background-color: #f4f4f2;
 }
+
 /* checked */
 .header-bar-container {
     height: 35px;
@@ -143,12 +165,14 @@
     border-radius: 0px 10px 0px 0px;
     background-color: #f4f4f2;
 }
+
 /* checked */
 .search-btn {
     padding: 0px 10px;
     border: 1px solid #d2d2d2;
     border-radius: 10px;
 }
+
 /* checked */
 .search-btn__input {
     width: 300px;
@@ -157,6 +181,7 @@
     color: #d2d2d2;
     background-color: #f4f4f2;
 }
+
 /* checked */
 input::placeholder {
     color: #d2d2d2;
@@ -178,6 +203,7 @@ input::placeholder {
     padding-right: 8px;
     padding-bottom: 8px;
 }
+
 /* checked */
 .calendar-wrapper {
     height: 585px;
