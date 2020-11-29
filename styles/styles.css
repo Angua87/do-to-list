@@ -89,6 +89,8 @@
     height: 35px;
     border-radius: 45px;
     margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 8px;
 
     /*---*/
 
@@ -98,11 +100,10 @@
     outline: 0;
     color: #d4d4d4;
     text-shadow: 1px 1px 0px #ffffff;
-    /* transition: all 0.5s ease 0.0s; */
+    transition: all 0.5s ease 0.0s;
     box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
     cursor: pointer;
-    transform: rotateZ(5px);
 
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
@@ -124,7 +125,6 @@
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
-    transform: rotateZ(5px);
 }
 
 .to-do-btn:active,
@@ -136,7 +136,6 @@
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
-    transform: rotateZ(5px);
 }
 
 .work-btn:hover,
@@ -148,7 +147,6 @@
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
-    transform: rotateZ(5px);
 }
 
 .work-btn:active,
@@ -159,7 +157,6 @@
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
-    transform: rotateZ(5px);
 }
 
 /* checked */
@@ -197,7 +194,8 @@
     margin-right: 16px;
     margin-bottom: 16px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 16px;
+    transition: all 0.5s ease 0.0s;
 }
 
 .add-task-btn:hover {
@@ -214,6 +212,30 @@
     font-size: 30px;
 }
 
+.to-do-btn__counter,
+.in-progress-btn__counter,
+.done-btn__counter{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 16px;
+    border-radius: 45px;
+    background-color: #f4f4f2;
+    border: 0;
+    outline: 0;
+    color: #d4d4d4;
+    text-shadow: 1px 1px 0px #ffffff;
+    box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-do-btn__icon,
+.in-progress-btn__icon,
+.done-btn__icon{
+    font-size: 19px;
+    font-size: 19px;
+}
 /* RIGHT-SIDE */
 
 /* checked */
