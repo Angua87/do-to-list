@@ -52,7 +52,7 @@
     margin-bottom: 5px;
 }
 
-.UA-container__subtitle{
+.UA-container__subtitle {
     text-shadow: 1px 1px 0px #ffffff;
 }
 
@@ -75,9 +75,6 @@
     text-transform: capitalize;
 }
 
-/* to use */
-
-/* checked */
 .to-do-btn,
 .in-progress-btn,
 .done-btn,
@@ -87,86 +84,67 @@
 .home-btn,
 .add-task-btn {
     height: 35px;
+
     border-radius: 45px;
-    margin-bottom: 16px;
-    padding-left: 16px;
-    padding-right: 8px;
-
-    /*---*/
-
-    background-color: #f4f4f2;
-    /* background-color: #ffffff; */
     border: 0;
     outline: 0;
+
+    background-color: #f4f4f2;
     color: #d4d4d4;
-    text-shadow: 1px 1px 0px #ffffff;
-    transition: all 0.5s ease 0.0s;
+
     box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
-    /* transition: all 0.2s ease-in-out; */
+    text-shadow: 1px 1px 0px #ffffff;
+
+    margin-bottom: 16px;
+    padding-left: 16px;
+    /*todo*/
+    padding-right: 8px;
+
     cursor: pointer;
-
-    /* color: #ffffff;
-    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F; */
-
-    /* background-color: #ffffff;
-    border: none;
-    box-shadow: 1.5px 3px 5px 1.5px rgba(0, 0, 0, 0.1);
-    color: #d2d2d2;
-    transition: all 0.5s ease 0.0s; */
+    transition: all 0.5s ease 0.0s;
 }
 
 .to-do-btn:hover,
 .in-progress-btn:hover,
 .done-btn:hover,
 .add-task-btn:hover {
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4;
+
     color: #c0c0c0;
-    /* color: #ffffff;
-    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F;*/
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4;
 }
 
 .to-do-btn:active,
 .in-progress-btn:active,
 .done-btn:active,
 .add-task-btn:active {
-    width: 159px; /*245*/
+    
     box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
-    /* color: #ffffff;
-    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F;*/
 }
 
 .work-btn:hover,
 .school-btn:hover,
 .other-btn:hover,
 .home-btn:hover {
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px#d4d4d4;
+
     color: #acacac;
-    /* color: #ffffff;
-    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F;*/
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px#d4d4d4;
+
 }
 
 .work-btn:active,
 .school-btn:active,
 .other-btn:active,
 .home-btn:active {
+    
     box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
-    /* color: #ffffff;
-    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F;*/
 }
 
-/* checked */
 .to-do-btn,
 .in-progress-btn,
 .done-btn {
-    width: 159px; /*245*/
+    width: 159px;
 }
 
-/* checked */
 .work-btn,
 .school-btn,
 .other-btn,
@@ -174,17 +152,14 @@
     width: 108.5px;
 }
 
-/* checked */
 .done-btn {
     margin-bottom: 24px;
 }
 
-/* checked */
 .add-task-container {
     height: 97px;
 }
 
-/* checked */
 .add-task-btn {
     display: flex;
     justify-content: space-between;
@@ -205,7 +180,6 @@
     width: 233px;
 }
 
-/* checked */
 .add-task-btn__icon {
     position: relative;
     font-size: 30px;
@@ -214,17 +188,21 @@
 
 .to-do-btn__counter,
 .in-progress-btn__counter,
-.done-btn__counter{
+.done-btn__counter {
     height: 35px;
     width: 35px;
     margin-bottom: 16px;
+    
     border-radius: 45px;
-    background-color: #f4f4f2;
     border: 0;
     outline: 0;
+    
     color: #d4d4d4;
+    background-color: #f4f4f2;
+    
     text-shadow: 1px 1px 0px #ffffff;
     box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,10 +210,11 @@
 
 .to-do-btn__icon,
 .in-progress-btn__icon,
-.done-btn__icon{
+.done-btn__icon {
     font-size: 19px;
     font-size: 19px;
 }
+
 /* RIGHT-SIDE */
 
 /* checked */
@@ -291,12 +270,16 @@ input::placeholder {
     width: 420px;
     padding-right: 8px;
     padding-bottom: 8px;
+    background-color: #f4f4f2;
+    border-radius: 10px 0px 0px 10px;
 }
 
 /* checked */
 .calendar-wrapper {
     height: 585px;
     width: 260px;
+    background-color: #f4f4f2;
+    border-radius: 0px 10px 10px 0px;
 }
 
 /* checked */
