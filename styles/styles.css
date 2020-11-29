@@ -48,7 +48,12 @@
 .UA-container__icon {
     font-size: 100px;
     font-size: 100px;
+    text-shadow: 1px 1px 0px #ffffff;
     margin-bottom: 5px;
+}
+
+.UA-container__subtitle{
+    text-shadow: 1px 1px 0px #ffffff;
 }
 
 /* checked */
@@ -58,14 +63,15 @@
 
 /* checked */
 .buttons-wrapper__btn-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 /* checked */
 .btn-headings {
-    margin-bottom: 8px;
-    color: #d2d2d2;
+    margin-bottom: 16px;
+    color: #c0c0c0;
+    text-shadow: 1px 1px 0px #ffffff;
     text-transform: capitalize;
 }
 
@@ -82,29 +88,25 @@
 .add-task-btn {
     height: 35px;
     border-radius: 45px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 
     /*---*/
 
-/* background-color: #ffffff; */
     background-color: #f4f4f2;
+    /* background-color: #ffffff; */
     border: 0;
     outline: 0;
-    color: #d2d2d2;
+    color: #d4d4d4;
     text-shadow: 1px 1px 0px #ffffff;
     /* transition: all 0.5s ease 0.0s; */
-    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #d2d2d2;
+    box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-
-  
-
-
+    transform: rotateZ(5px);
 
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
-    background-color: #31326F;*/
-    transform: rotateZ(5px);
+    background-color: #31326F; */
 
     /* background-color: #ffffff;
     border: none;
@@ -117,8 +119,8 @@
 .in-progress-btn:hover,
 .done-btn:hover,
 .add-task-btn:hover {
-    width: 245px;
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d2d2d2;
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4;
+    color: #c0c0c0;
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
@@ -129,8 +131,20 @@
 .in-progress-btn:active,
 .done-btn:active,
 .add-task-btn:active {
-    width: 245px;
-    box-shadow: inset 1px 1px 2px #d2d2d2, inset -1px -1px 2px #FFF;
+    width: 159px; /*245*/
+    box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
+    /* color: #ffffff;
+    box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
+    background-color: #31326F;*/
+    transform: rotateZ(5px);
+}
+
+.work-btn:hover,
+.school-btn:hover,
+.other-btn:hover,
+.home-btn:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px#d4d4d4;
+    color: #acacac;
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
@@ -141,7 +155,7 @@
 .school-btn:active,
 .other-btn:active,
 .home-btn:active {
-    box-shadow: inset 1px 1px 2px #d2d2d2, inset -1px -1px 2px #FFF;
+    box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
     /* color: #ffffff;
     box-shadow: 1.5px 2px 4px 1.5px rgba(166, 167, 193, 1);
     background-color: #31326F;*/
@@ -152,7 +166,7 @@
 .to-do-btn,
 .in-progress-btn,
 .done-btn {
-    width: 245px;
+    width: 159px; /*245*/
 }
 
 /* checked */
@@ -160,7 +174,7 @@
 .school-btn,
 .other-btn,
 .home-btn {
-    width: 118px;
+    width: 108.5px;
 }
 
 /* checked */
@@ -170,7 +184,7 @@
 
 /* checked */
 .add-task-container {
-    height: 145px;
+    height: 97px;
 }
 
 /* checked */
@@ -180,8 +194,8 @@
     align-items: center;
     width: 159px;
     height: 50px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -190,7 +204,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 249px;
+    width: 233px;
 }
 
 /* checked */
