@@ -34,8 +34,8 @@
     width: inherit;
     margin: 0px 5px 0px 10px;
     border-radius: 10px 10px 10px 10px;
-    /* background-color: #ffffff; */
-    background-color: #f4f4f2;
+    background-color: #f4f4f4;
+    /* background-color: #f4f4f2; */
     /*changed: 2020-11-27*/
 }
 
@@ -89,10 +89,13 @@
     border: 0;
     outline: 0;
 
-    background-color: #f4f4f2;
+    background-color: #fefefe;
+    /* background-color: #f4f4f4; */
+    /* background-color: #f4f4f2; */
     color: #d4d4d4;
 
-    box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
+    box-shadow: 4px 4px 15px #d4d4d4;
+    /* box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4; */
     text-shadow: 1px 1px 0px #ffffff;
 
     margin-bottom: 16px;
@@ -110,14 +113,15 @@
 .add-task-btn:hover {
 
     color: #c0c0c0;
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4;
+    /* box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4; */
+    box-shadow: 2px 2px 5px #d4d4d4;
 }
 
 .to-do-btn:active,
 .in-progress-btn:active,
 .done-btn:active,
 .add-task-btn:active {
-    
+
     box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
 }
 
@@ -127,7 +131,8 @@
 .home-btn:hover {
 
     color: #acacac;
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px#d4d4d4;
+    /* box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4; */
+    box-shadow: 2px 2px 5px#d4d4d4;
 
 }
 
@@ -135,7 +140,7 @@
 .school-btn:active,
 .other-btn:active,
 .home-btn:active {
-    
+
     box-shadow: inset 1px 1px 2px #d4d4d4, inset -1px -1px 2px #FFF;
 }
 
@@ -192,17 +197,17 @@
     height: 35px;
     width: 35px;
     margin-bottom: 16px;
-    
+
     border-radius: 45px;
     border: 0;
     outline: 0;
-    
+
     color: #d4d4d4;
-    background-color: #f4f4f2;
-    
+    background-color:  #fefefe;
+
     text-shadow: 1px 1px 0px #ffffff;
     box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
