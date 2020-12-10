@@ -203,7 +203,7 @@
     outline: 0;
 
     color: #d4d4d4;
-    background-color:  #fefefe;
+    background-color: #fefefe;
 
     text-shadow: 1px 1px 0px #ffffff;
     box-shadow: -4px -4px 15px #FFF, 4px 4px 15px #d4d4d4;
@@ -291,10 +291,56 @@ input::placeholder {
 .calendar-app {
     width: 244px;
     height: 244px;
-    border: 1px solid #d2d2d2;
-    background-color: #ffffff;
+    background-color: #31326f;
+    color: #ffffff;
     border-radius: 10px;
     margin: 8px;
+}
+
+.calendar-app_month {
+    width: 244px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 12px 0px 12px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.calendar-app_weekdays {
+    width: inherit;
+    height: 20px;
+    color: #ffffff;
+    padding: 0 6.4px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.calendar-app_weekdays div {
+    width: calc(231.2px/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-app_days {
+    width: inherit;
+    height: 166px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0 6.4px;
+}
+
+.calendar-app_days div {
+    width: calc(231.2px/7);
+    height: calc(166px/6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* checked */
