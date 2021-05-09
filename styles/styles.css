@@ -6,7 +6,7 @@
 /* checked */
 .browser-window-size {
     /* background: #ffdada; */
-    background-color: #fefefe;
+    background-color: #f4f4f4;
     height: 100vh;
     width: 100vw;
 }
@@ -146,6 +146,7 @@
 .home-btn:hover {
 
     color: #acacac;
+    /* background-color: #ffba93; */
     /* box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #d4d4d4; */
     box-shadow: 2px 2px 5px#d4d4d4;
 
@@ -306,8 +307,8 @@ input::placeholder {
 .calendar-app {
     width: 244px;
     height: 244px;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    /* background-color: #31326f; */
+    /* background-image: linear-gradient(180deg, #755198 0%, #583d72 85%); */
+    background-color: #D2D2D2;
     color: #ffffff;
     border-radius: 10px;
     margin: 8px;
@@ -329,14 +330,14 @@ input::placeholder {
     width: inherit;
     height: 20px;
     color: #ffffff;
-    padding: 0 6.4px;
+    padding: 0 5px;
     display: flex;
     align-items: center;
     margin: 5px 0px;
 }
 
 .calendar-app_weekdays div {
-    width: calc(231.2px/7);
+    width: calc(234px/7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,15 +350,28 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    padding: 0 6.4px;
+    padding: 0 5px;
 }
 
 .calendar-app_days div {
-    width: calc(231.2px/7);
+    width: calc(234px/7);
     height: calc(166px/6);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* .calendar-app_days div:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 45px;
+    border: 1px solid #ff8e71;
+    background-color: #ff8e71;
+} */
+
+.calendar-arrow-left_icon,
+.calendar-arrow-right_icon {
+    cursor: pointer;
 }
 
 /* checked */
